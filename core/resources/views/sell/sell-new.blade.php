@@ -65,6 +65,28 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
+                                                    <label class="col-md-12"><strong style="text-transform: uppercase;">Father Name</strong></label>
+                                                    <div class="col-md-12">
+                                                        <div class="input-group">
+                                                            <input name="fname" class="form-control bold" value="{{ old('fname') }}" placeholder="Father Name" />
+                                                            <span class="input-group-addon"><strong><i class="fa fa-file-text-o"></i></strong></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="col-md-12"><strong style="text-transform: uppercase;">CNIC</strong></label>
+                                                    <div class="col-md-12">
+                                                        <div class="input-group">
+                                                            <input name="cnic" class="form-control bold" value="{{ old('cnic') }}" placeholder="CNIC" />
+                                                            <span class="input-group-addon"><strong><i class="fa fa-file-text-o"></i></strong></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
                                                     <label class="col-md-12"><strong style="text-transform: uppercase;">Customer Email</strong></label>
                                                     <div class="col-md-12">
                                                         <div class="input-group">
